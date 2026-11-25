@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f8fc">
+  <meta name="description" content="Skillfolio verbindet Erfahrungen aus Beruf und Freizeit mit belegbaren Kompetenzen, Bewerbungen und passenden Berufsideen.">
+  <title>Übersicht | Skillfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#dashboard" aria-label="Skillfolio, Übersicht">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>skillfolio<span class="brand-dot">.</span></span>
+      </a>
+      <nav aria-label="Hauptnavigation">
+        <p class="nav-label">Arbeitsbereich</p>
+        <a class="nav-link" href="#dashboard"><span class="symbol icon-grid" aria-hidden="true"></span>Übersicht</a>
+        <a class="nav-link" href="#interview"><span class="symbol" aria-hidden="true">✦</span>KI-Interview</a>
+        <a class="nav-link" href="#profil"><span class="symbol icon-profile" aria-hidden="true"></span>Kompetenzprofil</a>
+        <a class="nav-link" href="#berufe"><span class="symbol icon-compass" aria-hidden="true">◈</span>Berufe entdecken</a>
+        <a class="nav-link" href="#werkstatt"><span class="symbol icon-case" aria-hidden="true"></span>Bewerbungswerkstatt</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="demo-panel"><span class="demo-icon" aria-hidden="true">✧</span><div><strong>Präsentationsmodus</strong><p>Lokale Demo mit Beispieldaten</p></div></div>
+        <div class="identity"><span class="avatar" aria-hidden="true">LM</span><div><strong>Lea Müller</strong><span>Wirtschaftsinformatik</span></div></div>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar"><div class="topbar-path"><span>Arbeitsbereich</span><span class="crumb-divider" aria-hidden="true">/</span><strong id="breadcrumb">Übersicht</strong></div><span class="demo-tag"><i></i>Hochschul-Demo</span></header>
+      <main id="main" tabindex="-1"></main>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"></dialog>
+  <noscript>Bitte aktiviere JavaScript, um Skillfolio zu verwenden.</noscript>
+</body>
+</html>
